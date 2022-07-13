@@ -27,17 +27,48 @@
 /* main */
 
 .container__main {
-    max-width: 1330px;
-    margin: 0 auto;
+    padding: 0 50px;
 }
 
 .jumbo__bg {
-    height: 100vh;
+    min-height: 90vh;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
-    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content__jumbo {
+    padding-top: 16rem;
 }
 
 .returnal__description {
     max-width: 40%;
+}
+
+.titles__main {
+    font-size: 48px;
+}
+
+.desc__game {
+    font-size: 18px;
+}
+
+#button__buy {
+    color: white !important;
+    background-color: red !important;
+}
+
+.carousel {
+    padding: 40px 0;
+}
+
+.carousel img {
+    border-radius: 20px;
+}
+
+.active {
+    border: 2px solid rgb(11, 11, 11);
+    padding: 2px;
+    border-radius: 20px;
 }
