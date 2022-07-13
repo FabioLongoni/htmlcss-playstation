@@ -46,7 +46,7 @@
     max-width: 40%;
 }
 
-.titles__main, .ps5__title {
+.titles__main, .ps5__title, .console__ps5 {
     font-size: 48px;
 }
 
@@ -74,7 +74,27 @@
     padding: 3px;
 }
 
-.ps5__info {
+/* ps5 */
+
+.ps5__info, .console__ps5__info {
     font-size: 24px;
     color: #656565;
 }
+
+#button__info__ps5 {
+    background-color: #2d64e6;
+    color: white;
+}
+
+.ps5__included {
+    cursor: pointer;
+}
+
+.ps5 {
+    padding-bottom: 50px;
+}
+
+.ps5__included div {
+    font-size: 20px;
+}
+
