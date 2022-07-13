@@ -28,6 +28,7 @@
 
 .container__main {
     max-width: 1330px;
+    margin: 0 auto;
 }
 
 .jumbo__bg {
@@ -35,4 +36,8 @@
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     position: relative;
+}
+
+.returnal__description {
+    max-width: 40%;
 }
