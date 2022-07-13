@@ -1,10 +1,28 @@
-
+:root {
+    
+}
 
 /* header */
-
 
 .header__top {
     background-color: black;
     text-align: right;
-    padding: 14px 0;
+    padding: 14px 12px;
 }
+
+.brand img {
+    width: 90px;
+}
+
+/* header bottom */
+
+.nav-item a {
+    color: black !important;
+}
+
+#button__nav__bar {
+    color: white !important;
+    background-color: #363636 !important;
+    margin: 0 1rem;
+}
+
