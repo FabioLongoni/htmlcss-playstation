@@ -1,6 +1,4 @@
-:root {
-    
-}
+
 
 /* header */
 
@@ -26,3 +24,15 @@
     margin: 0 1rem;
 }
 
+/* main */
+
+.container__main {
+    max-width: 1330px;
+}
+
+.jumbo__bg {
+    height: 100vh;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    position: relative;
+}
