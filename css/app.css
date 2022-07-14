@@ -2,6 +2,7 @@
     --title__size: 48px;
     --info__size: 24px;
     --light__grey__text:  #656565;
+    --font18: 18px;
 }
 
 /* header */
@@ -52,7 +53,7 @@
 }
 
 .desc__game {
-    font-size: 18px;
+    font-size: var(--font18);
 }
 
 #button__buy {
@@ -160,4 +161,19 @@
 .col__description__ps4 {
     font-size: var(--info__size);
     color: var(--light__grey__text);
+}
+
+/* playstationplus */
+
+.ps__plus {
+    background-color: #bebcbb;
+}
+
+.ps__plus__info div {
+    font-size: var(--font18);
+}
+
+#button__info__ps__plus {
+    background-color: rgba(255, 255, 255, 0.5) ;
+    color: blue;
 }
