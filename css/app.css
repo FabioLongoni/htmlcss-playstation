@@ -6,6 +6,8 @@
     --font16: 16px;
 }
 
+
+
 /* header */
 
 .header__top {
@@ -218,29 +220,6 @@
 .social, .ps__footer {
     padding: 5rem 0;
 }
-
-/* ******************************** */
-@media all and (min-width:992px) {
-    .container__social__icon {
-        max-width: 750px;
-        margin: 0 auto;
-    }
-}
-
-@media all and (min-width:768px) {
-    .container__social__icon {
-        max-width: 600px;
-        margin: 0 auto;
-    }
-}
-
-@media all and (min-width:576px) {
-    .container__social__icon {
-        max-width: 450px;
-        margin: 0 auto;
-    }
-}
-/* *********************************** */
 
 /* footer */
 
