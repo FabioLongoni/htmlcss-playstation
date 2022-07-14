@@ -1,6 +1,7 @@
 :root {
     --title__size: 48px;
     --info__size: 24px;
+    --light__grey__text:  #656565;
 }
 
 /* header */
@@ -45,7 +46,7 @@
     padding-top: 16rem;
 }
 
-.titles__main, .ps5__title, .console__ps5 {
+.titles__main, .ps5__title, .console__ps5, .ps4__title {
     font-size: var(--title__size);
     line-height: 48px;
 }
@@ -91,7 +92,7 @@
 
 /* ps5 */
 
-.ps5__info, .console__ps5__info {
+.ps5__info, .console__ps5__info, .ps4__info {
     font-size: var(--info__size);
     color: #656565;
 }
@@ -117,8 +118,8 @@
     border-color: #0061c8;
 }
 
-.ps5 {
-    padding-bottom: 50px;
+.ps5, .ps4{
+    padding: 5rem 0 4rem 0;
 }
 
 .ps5__included div {
@@ -148,4 +149,15 @@
 
 .img__new__exit {
     border-radius: 20px;
+}
+
+/* ps4 */
+
+.col__title__ps4 {
+    font-size: var(--title__size);
+}
+
+.col__description__ps4 {
+    font-size: var(--info__size);
+    color: var(--light__grey__text);
 }
