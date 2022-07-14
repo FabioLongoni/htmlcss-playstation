@@ -215,6 +215,9 @@
     padding: 0 1rem;
 }
 
+.social, .ps__footer {
+    padding: 5rem 0;
+}
 
 /* ******************************** */
 @media all and (min-width:992px) {
@@ -238,3 +241,9 @@
     }
 }
 /* *********************************** */
+
+/* footer */
+
+footer {
+    background-color: #00439c;
+}
