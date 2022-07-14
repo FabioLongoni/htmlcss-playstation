@@ -3,6 +3,7 @@
     --info__size: 24px;
     --light__grey__text:  #656565;
     --font18: 18px;
+    --font16: 16px;
 }
 
 /* header */
@@ -32,8 +33,18 @@
 /* main */
 
 .container__main {
-    padding: 0 50px;
+    padding: 0 1rem;
 }
+
+/* ******************************* */
+@media all and (min-width:768px) {
+    .container__main {
+        padding: 0 40px;
+    }
+}
+/* ******************************** */
+
+/* jumbotron */
 
 .jumbo__bg {
     min-height: 90vh;
@@ -170,7 +181,7 @@
 }
 
 .ps__plus__info div {
-    font-size: var(--font18);
+    font-size: var(--font16);
 }
 
 #button__info__ps__plus {
@@ -182,3 +193,48 @@
  .sale {
     padding: 5rem 0;
  }
+
+ /* psnow */
+
+ .ps__now {
+    background-color: #161c3b;
+}
+
+.ps__now__info div {
+    font-size: var(--font16);
+}
+
+#button__info__ps__now {
+    background-color: white;
+    color: black;
+}
+
+/* social icon */
+
+.container__social__icon {
+    padding: 0 1rem;
+}
+
+
+/* ******************************** */
+@media all and (min-width:992px) {
+    .container__social__icon {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+}
+
+@media all and (min-width:768px) {
+    .container__social__icon {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+
+@media all and (min-width:576px) {
+    .container__social__icon {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+}
+/* *********************************** */
