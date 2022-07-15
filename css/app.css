@@ -38,6 +38,10 @@
     margin: 0 1rem;
 }
 
+.dropdown-toggle::after {
+    color: var(--light__grey__text);
+}
+
 /* main */
 
 .container__main {
@@ -64,7 +68,7 @@
 }
 
 .content__jumbo {
-    padding-top: 16rem;
+    padding-top: 25rem;
 }
 
 .titles__main, .ps5__title, .console__ps5, .ps4__title {
@@ -109,6 +113,13 @@
         max-width: 40%;
     }
 }
+
+@media all and (min-width:768px) {
+    .content__jumbo {
+        padding-top: 16rem;
+    }
+}
+
 /* ************************************** */
 
 /* ps5 */
@@ -252,4 +263,8 @@
 
 footer {
     background-color: #00439c;
+}
+
+.country {
+    cursor: pointer;
 }
