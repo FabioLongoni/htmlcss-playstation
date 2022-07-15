@@ -1,0 +1,310 @@
+:root {
+    --title__size: 48px;
+    --info__size: 24px;
+    --light__grey__text:  #656565;
+    --font18: 18px;
+    --font16: 16px;
+    --font500: 500;
+}
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* header */
+
+.header__top {
+    background-color: black;
+    text-align: right;
+    padding: 14px 12px;
+}
+
+.brand img {
+    width: 90px;
+}
+
+/* header bottom */
+
+.nav-item a {
+    color: black !important;
+    font-weight: var(--font500);
+}
+
+#button__nav__bar {
+    color: white !important;
+    background-color: #363636 !important;
+    margin: 0 1rem;
+}
+
+.button__nav {
+    position: relative;
+}
+
+#button__nav__bar::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#button__nav__bar:hover::after {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown-toggle::after {
+    color: var(--light__grey__text);
+}
+
+/* main */
+
+.container__main {
+    padding: 0 1rem;
+}
+
+/* ******************************* */
+@media all and (min-width:768px) {
+    .container__main {
+        padding: 0 40px;
+    }
+}
+/* ******************************** */
+
+/* jumbotron */
+
+.jumbo__bg {
+    min-height: 90vh;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: var(--font500);
+}
+
+.content__jumbo {
+    padding-top: 25rem;
+}
+
+.titles__main, .ps5__title, .console__ps5, .ps4__title {
+    font-size: var(--title__size);
+    line-height: 48px;
+}
+
+.desc__game {
+    font-size: var(--font18);
+}
+
+#button__buy {
+    color: white !important;
+    background-color: red !important;
+}
+
+.all__button:hover .button__active {
+    transform: scale(1.1);
+}
+
+.carousel {
+    padding: 40px 0;
+    position: relative;
+}
+
+.carousel img {
+    border-radius: 20px;
+}
+
+.active {
+    border: 2px solid #0061c8;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.img__car__unselected:hover .img__car {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 13px -7px #000000, -1px 20px 23px 7px rgba(0,0,0,0.20);
+}
+
+
+/* ************************************* */
+@media all and (min-width:992px) {
+    .returnal__description {
+        max-width: 40%;
+    }
+}
+
+@media all and (min-width:768px) {
+    .content__jumbo {
+        padding-top: 16rem;
+    }
+}
+
+/* ************************************** */
+
+/* ps5 */
+
+.ps5__info, .console__ps5__info, .ps4__info {
+    font-size: var(--info__size);
+    color: #656565;
+}
+
+#button__info__ps5 {
+    background-color: #2d64e6;
+    color: white;
+    font-weight: var(--font500);
+}
+
+.ps5__included {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#active__element {
+    opacity: 1;
+}
+
+
+.ps5__included:hover {
+    opacity: 1;
+    border-bottom: 3px solid #0061c8;
+}
+
+.ps5__included div {
+    line-height: 24px;
+}
+
+.ps5, .ps4{
+    padding: 5rem 0 4rem 0;
+    font-weight: var(--font500);
+}
+
+.ps5__included div {
+    font-size: 20px;
+    display: none;
+}
+
+
+/* ************************************** */
+
+@media all and (min-width:768px) {
+    .ps5__included div {
+        display: block;
+    }
+}
+
+/* **************************************** */
+
+/* second jumbotron */
+
+.jumbo__bg__second {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    padding-top: 2rem;
+}
+
+.content__jumbo__second, #button__buy {
+    font-weight: var(--font500);
+}
+
+
+/* new exit */
+
+.new__exit {
+    font-weight: var(--font500);
+}
+
+.img__new__exit {
+    border-radius: 20px;
+}
+
+.img__new__exit:hover {
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+/* ps4 */
+
+.col__title__ps4 {
+    font-size: var(--title__size);
+}
+
+.col__description__ps4 {
+    font-size: var(--info__size);
+    color: var(--light__grey__text);
+}
+
+/* playstationplus */
+
+.ps__plus {
+    background-color: #bebcbb;
+    font-weight: var(--font500);
+}
+
+.ps__plus__info div {
+    font-size: var(--font16);
+}
+
+#button__info__ps__plus {
+    background-color: rgba(255, 255, 255, 0.5) ;
+    color: blue;
+    font-weight: var(--font500);
+}
+
+/* sale */
+ .sale {
+    padding: 5rem 0;
+    font-weight: var(--font500);
+ }
+
+ .sale__img:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+ }
+
+ /* psnow */
+
+ .ps__now {
+    background-color: #161c3b;
+    font-weight: var(--font500);
+}
+
+.ps__now__info div {
+    font-size: var(--font16);
+}
+
+#button__info__ps__now {
+    background-color: white;
+    color: black;
+    font-weight: var(--font500);
+}
+
+/* social icon */
+
+.social_section_title {
+    font-weight: var(--font500);
+}
+
+.container__social__icon {
+    padding: 0 1rem;
+}
+
+.social, .ps__footer {
+    padding: 5rem 0;
+}
+
+.social__icon__img:hover {
+    transform: scale(0.95);
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+
+/* footer */
+
+footer {
+    background-color: #00439c;
+}
+
+.country {
+    cursor: pointer;
+}
